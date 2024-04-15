@@ -1,5 +1,4 @@
 
-langchain-openai
 langchain==0.0.184
 PyPDF2==3.0.1
 python-dotenv==1.0.0
@@ -16,6 +15,8 @@ InstructorEmbedding==1.0.1
 sentence-transformers #==2.2.2
 streamlit-javascript
 langchain-community
+langchain-openai
+
 # langchain==0.0.184
 # openai==0.27.6
 # faiss-cpu==1.7.4
