@@ -15,7 +15,7 @@ InstructorEmbedding==1.0.1
 sentence-transformers #==2.2.2
 streamlit-javascript
 langchain-community
-langchain-openai
+# langchain-openai
 
 # langchain==0.0.184
 # openai==0.27.6
