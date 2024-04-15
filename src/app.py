@@ -78,10 +78,10 @@ def get_embedding_model(model_name="hkunlp/instructor-xl"):
 
 @st.cache_resource
 def select_embedding_model(embedding_model_choice):
-    if embedding_model_choice == "huggingface_instruct":
-        return HuggingFaceInstructEmbeddings()
-    else:
-        return OpenAIEmbeddings(openai_api_key=openai_api_key, model=embedding_model_choice)
+    # if embedding_model_choice == "huggingface_instruct":
+    #     return HuggingFaceInstructEmbeddings()
+    # else:
+    return OpenAIEmbeddings(openai_api_key=openai_api_key, model=embedding_model_choice)
 
 
 def get_vectorstore(text_chunks, embedding_model_choice):
