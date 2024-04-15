@@ -16,4 +16,4 @@ langchain-community
 streamlit-javascript
 
 PyPDF2
-# langchain-openai
+langchain-openai
