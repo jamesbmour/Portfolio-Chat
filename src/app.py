@@ -285,7 +285,7 @@ def process_files(file_list):
             st.error(f"Unsupported file type: {file_extension}")
             return
         # Proceed with the rest of your processing logic here
-        print(raw_text)
+        # print(raw_text)
         # Other processing steps...
 
         text_chunks = get_text_chunks(raw_text, chunk_size=model_config['chunk_size'],
